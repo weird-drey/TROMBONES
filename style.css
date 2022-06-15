@@ -73,6 +73,7 @@ body {
 .container {
     margin: auto;
     padding-top: 100px;
+    width: 100%;
 }
 
 .icon {
