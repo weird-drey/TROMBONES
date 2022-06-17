@@ -3,6 +3,8 @@
     <head>
         <title>Landing Page</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
@@ -10,13 +12,11 @@
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" class="header-img" alt="logo">
             </div>
-            <div>
-                <nav id="nav-bar">
-                    <a href="#features" class="nav-link"><li class="navigate">Features</li></a>
-                    <a href="#section" class="nav-link"><li class="navigate">How It Works</li></a>
-                    <a href="#section1" class="nav-link"><li class="navigate">Pricing</li></a>
-                </nav>
-            </div>
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link navigate">Features</a>
+                <a href="#section" class="nav-link navigate">How It Works</a>
+                <a href="#section1" class="nav-link navigate">Pricing</a>
+            </nav>
         </header>
         <main>
             <section class="email-info">
@@ -28,46 +28,26 @@
             </section>
 
             <section class="container" id="features">
-                <div class="flex">
-                    <div>
-                        <img src="fire-icon.png" class="icon" alt="">
-                    </div>
-                    <div>
                         <p class="xteristics">Premium Materials</p>
                         <p class="xteristics1">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-                    </div>
-                </div>
 
-                <div class="flex1">
-                    <div>
-                        <img src="https://img.icons8.com/glyph-neue/344/truck.png" class="icon" alt="">
-                    </div>
-                    <div>
+               
                         <p class="xteristics">Fast Shipping</p>
-                        <p class="xteristics1">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if <br> you are not satisfied.</p>
-                    </div>
-                </div>
+                        <p class="xteristics1">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
 
-                <div class="flex2">
-                    <div>
-                        <img src="https://img.icons8.com/ios-glyphs/344/full-battery.png" class="icon3" alt="">
-                    </div>
-                    <div>
+                
                         <p class="xteristics">Quality Assurance</p>
-                        <p class="xteristics1">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of <br> your instrument.</p>
-                    </div>
-                </div>
+                        <p class="xteristics1">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
             </section>
 
             <section id="section">
-                <iframe src="https://www.youtube.com/embed/y8Yv4pnO7qc" width="550" height="330" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vid" id="video"></iframe>
+                <iframe src="https://www.youtube.com/embed/y8Yv4pnO7qc" width="600" height="250" frameborder="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vid" id="video"></iframe>
             </section>
 
             <section id="section1">
                 <div id="price-div">
-                    <div class="trombone-types">
-                        <p class="trombone">TENOR TROMBONE</p>
-                        <div>
+                    <p class="trombone trombone-types">TENOR TROMBONE</p>
+                        <div class="lorem-cont">
                             <p class="price">$600</p>
                             <p class="lorem">Lorem ipsum.</p>
                             <p class="lorem">Lorem ipsum.</p>
@@ -75,12 +55,10 @@
                             <p class="lorem">Lorem ipsum.</p>
                             <button type="submit" id="submit-btn">SELECT</button>
                         </div>
-                    </div>
                 </div>
                 <div id="price-div">
-                    <div class="trombone-types">
-                        <p class="trombone">BASS TROMBONE</p>
-                        <div>
+                    <p class="trombone trombone-types">BASS TROMBONE</p>
+                        <div class="lorem-cont">
                             <p class="price">$900</p>
                             <p class="lorem">Lorem ipsum.</p>
                             <p class="lorem">Lorem ipsum.</p>
@@ -88,11 +66,10 @@
                             <p class="lorem">Lorem ipsum.</p>
                             <button type="submit" id="submit-btn">SELECT</button>
                         </div>
-                    </div>
+
                 </div>
                 <div id="price-div">
-                    <div class="trombone-types">
-                        <p class="trombone">VALVE TROMBONE</p>
+                    <p class="trombone trombone-types">VALVE TROMBONE</p>
                         <div>
                             <p class="price">$1200</p>
                             <p class="lorem">Plays similar to a Trumpet</p>
@@ -101,7 +78,6 @@
                             <p class="lorem">Lorem ipsum.</p>
                             <button type="submit" id="submit-btn">SELECT</button>
                         </div>
-                    </div>
                 </div>
             </section>
         </main>
